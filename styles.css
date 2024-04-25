@@ -1,0 +1,43 @@
+body {
+    font-family: Altivo, Inter, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.header,
+.title,
+.feed,
+.quote,
+.cta,
+.footer {
+    padding: 16px 128px;
+}
+
+.header,
+.title,
+.footer {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
