@@ -38,6 +38,47 @@ a {
     justify-content: space-between;
 }
 
+.title {
+    display: flex;
+    gap: 32px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.title-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.title-content-header {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.title-content-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.title-content-button {
+    background-color: #3882f6;
+    padding: 16px 32px;
+    font-family: inherit;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    margin-top: 8px;
+    border-radius: 8px;
+    width: 30%;
+}
+
+.title-image {
+    margin: 16px 0px;
+}
+
 .quote {
     background-color: #e5e7eb;
 }
