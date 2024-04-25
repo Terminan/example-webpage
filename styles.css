@@ -38,11 +38,16 @@ a {
     justify-content: space-between;
 }
 
+.title,
+.feed,
+.quote {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
 .title {
     display: flex;
     gap: 32px;
-    padding-top: 64px;
-    padding-bottom: 64px;
 }
 
 .title-content {
@@ -77,6 +82,30 @@ a {
 
 .title-image {
     margin: 16px 0px;
+}
+
+.feed-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.feed-content {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 64px;
+    margin-top: 32px;
+}
+
+.feed-items {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 150px;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .quote {
